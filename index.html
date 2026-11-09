@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALBA FERNÁNDEZ VÁZQUEZ</title>
     <style>
-        /* Tipografía e higiene visual al estilo Stradivarius */
+        /* Estilos base con estética Stradivarius */
         * {
             margin: 0;
             padding: 0;
@@ -13,30 +13,34 @@
         }
 
         body {
-            background-color: #ffffff;
-            color: #000000;
+            background-color: #ff69b4; /* Fondo rosa solicitado */
+            color: #ffffff;            /* Texto blanco solicitado */
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             text-align: center;
             padding: 60px 20px;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
         }
 
-        /* Encabezados minimalistas en mayúsculas */
+        a, a:visited {
+            color: #ffffff;
+        }
+
+        /* Encabezados minimalistas estilo moda */
         h1 {
             font-size: 2.2rem;
             font-weight: 700;
             text-transform: uppercase;
             margin-bottom: 8px;
-            letter-spacing: 3px;
+            letter-spacing: 4px;
         }
 
         h2 {
             font-size: 0.95rem;
             font-weight: 400;
             text-transform: uppercase;
-            color: #555555;
             margin-bottom: 50px;
-            letter-spacing: 2px;
+            letter-spacing: 3px;
+            opacity: 0.9;
         }
 
         /* Contenedor del vídeo adaptativo (responsive) */
@@ -47,7 +51,8 @@
             padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
             height: 0;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* Sombra suave editorial */
+            border-radius: 4px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
         }
 
         .video-container iframe {
@@ -62,13 +67,13 @@
 </head>
 <body>
 
-    <!-- Cabecera de la página -->
+    <!-- Cabecera -->
     <header>
         <h1>BIENVENIDO</h1>
         <h2>ALBA FERNÁNDEZ VÁZQUEZ</h2>
     </header>
 
-    <!-- Sección del vídeo al final -->
+    <!-- Vídeo al final -->
     <main>
         <div class="video-container">
             <iframe 
