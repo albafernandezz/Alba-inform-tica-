@@ -8,16 +8,41 @@
         body {
             background-color: #ff69b4; /* Fondo rosa */
             color: #ffffff;            /* Texto blanco */
+            margin: 20px;
         }
 
-        /* Si añades enlaces más adelante, esto los mantendrá en blanco */
         a, a:visited {
             color: #ffffff;
+        }
+
+        /* Estilo opcional para centrar y adaptar el vídeo */
+        .video-container {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        iframe {
+            max-width: 100%;
+            border-radius: 8px; /* Bordes ligeramente redondeados */
         }
     </style>
 </head>
 <body>
     <h1>Bienvenido</h1>
     <h2>Alba Fernández Vázquez.</h2>
+
+    <!-- VÍDEO AL FINAL DE LA PÁGINA -->
+    <div class="video-container">
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/pbDZrEpknWA" 
+            title="Reproductor de vídeo de YouTube" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </div>
 </body>
 </html>
